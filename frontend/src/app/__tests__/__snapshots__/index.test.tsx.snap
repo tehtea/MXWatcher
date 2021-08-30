@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<BrowserRouter>
+  <Helmet
+    defaultTitle="MXWatcher"
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <meta
+      content="A webapp for showing the email provider used by each Fortune 1000 company"
+      name="description"
+    />
+  </Helmet>
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+    />
+  </Switch>
+  <Memo(l) />
+</BrowserRouter>
+`;

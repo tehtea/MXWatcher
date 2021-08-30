@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Masthead /> should render and match the snapshot 1`] = `
+<Masthead__Wrapper>
+  <Logos />
+  <Title>
+    MXWatcher
+  </Title>
+  <Lead>
+    A webapp for showing the email provider used by each Fortune 1000 company
+  </Lead>
+</Masthead__Wrapper>
+`;

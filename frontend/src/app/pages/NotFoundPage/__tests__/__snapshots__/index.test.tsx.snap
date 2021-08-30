@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFoundPage /> should match snapshot 1`] = `
+Array [
+  .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  font-size: 1.25rem;
+  color: rgba(58,52,51,1);
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: -1rem;
+}
+
+.c6 {
+  color: rgba(215,113,88,1);
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.25rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6:hover {
+  opacity: 0.8;
+}
+
+.c6:active {
+  opacity: 0.4;
+}
+
+.c6 .icon {
+  margin-right: 0.25rem;
+}
+
+.c2 {
+  width: min(90vw,960px);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  box-sizing: content-box;
+}
+
+.c0 {
+  box-shadow: 0 1px 0 0 rgba(58,52,51,0.05);
+  height: 4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255,255,255,1);
+  z-index: 2;
+}
+
+.c0 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@supports (-webkit-backdrop-filter:blur(10px)) or (backdrop-filter:blur(10px)) {
+  .c0 {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255,0.75);
+  }
+}
+
+<header
+    className="c0"
+  >
+    <div
+      className="c1 c2"
+    >
+      <div
+        className="c3"
+      >
+        <div
+          className="c4"
+        >
+          MXWatcher
+        </div>
+      </div>
+      <nav
+        className="c5"
+      >
+        <a
+          className="c6"
+          href="#statistics"
+          rel="noopener noreferrer"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"
+            />
+          </svg>
+          Statistics
+        </a>
+        <a
+          className="c6"
+          href="#search"
+          rel="noopener noreferrer"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            />
+          </svg>
+          Search
+        </a>
+      </nav>
+    </div>
+  </header>,
+  .c2 {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(58,52,51,0.7);
+  margin: 0.625rem 0 1.5rem 0;
+}
+
+.c3 {
+  color: rgba(215,113,88,1);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.c3:active {
+  opacity: 0.4;
+}
+
+.c0 {
+  height: calc(100vh - 4rem);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 320px;
+}
+
+.c1 {
+  margin-top: -8vh;
+  font-weight: bold;
+  color: rgba(58,52,51,1);
+  font-size: 3.375rem;
+}
+
+.c1 span {
+  font-size: 3.125rem;
+}
+
+@supports (-webkit-backdrop-filter:blur(10px)) or (backdrop-filter:blur(10px)) {
+
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      4
+      <span
+        aria-label="Crying Face"
+        role="img"
+      >
+        😢
+      </span>
+      4
+    </div>
+    <p
+      className="c2"
+    >
+      Page not found.
+    </p>
+    <a
+      className="c3"
+      href="/"
+      onClick={[Function]}
+    >
+      Return to Home Page
+    </a>
+  </div>,
+]
+`;

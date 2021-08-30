@@ -1,0 +1,4 @@
+cron:
+- description: "Crawl MXRecords for Fortune 1000 companies daily"
+  url: /crawlMXRecords
+  schedule: every day 04:00

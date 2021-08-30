@@ -1,0 +1,9 @@
+Flask_Cors==3.0.10
+ipinfo==4.2.1
+pony==0.7.14
+tldextract==3.1.0
+Flask==1.1.2
+dnspython==2.1.0
+protobuf==3.17.3
+google-cloud-secret-manager==2.7.0
+psycopg2-binary
